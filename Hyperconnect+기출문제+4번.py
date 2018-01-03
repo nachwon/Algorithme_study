@@ -1,8 +1,4 @@
 
-# coding: utf-8
-
-# In[1]:
-
 '''
 Implement the function sort_by_price_ascending, which:
     - Accepts a string in JSON format, as in the example below.
@@ -19,8 +15,6 @@ should return
 '[{"name":"eggs","price":1},{"name":"rice","price":4.04},{"name":"coffee","price":9.99}]'
 ''' 
 
-
-# In[78]:
 
 class Products:
     
@@ -43,13 +37,4 @@ class Products:
         return data
     
 
-
-# In[80]:
-
 Products.sort_by_price_ascending('[{"name":"eggs","price":1},{"name":"coffee","price":9.99},{"name":"rice","price":4.04},{"name":"apple","price":1.5}]')
-
-
-# In[ ]:
-
-
-
